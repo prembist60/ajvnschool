@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgb(221, 9, 9);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(3, 124, 98);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: rgb(214, 29, 153);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.features {
+    padding: 2em;
+    position: right;
+}
+
+footer {
+    background-color: rgb(14, 157, 240);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: right;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 2em auto;
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
